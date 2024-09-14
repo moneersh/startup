@@ -53,16 +53,28 @@ At this project, we will be utilizing the following technologies:<br><br>
 
 Below are rough sketches of the application's layout:<br>
 
-**Main Interface Layout**:
+ ### **Main Interface Layout**:
 
 <div style="display: flex; justify-content: center;">
     <img src="assets/first_page.jpeg" alt="Main Interface Sketch" style="width: 300px; height: auto;">
 </div>
 
-**Languages Choose Page**:
+### **Languages Choose Page**:
 
 <div style="display: flex; justify-content: center;">
     <img src="assets/choose_language.jpeg" alt="Languages Choose Page" style="width: 300px; height: auto;">
 </div>
 
+### Additional Features (Ideas)
+#### Authentication
+- **User Accounts:** Users can register, log in, and manage their profiles. Secure authentication will be implemented to ensure data privacy.
+- **Display:** Upon login, the user's name will be displayed on the interface, along with personalized learning paths.
+
+#### Database
+- **Persistent Data Storage:** User progress, preferences, and account details will be stored in a secure database, ensuring data integrity and availability across sessions.
+- **User Data:** Manage user-specific data such as progress reports and personalized learning content.
+
+#### WebSocket
+- **Real-Time Data Exchange:** WebSockets will enable real-time updates, such as live feedback on exercises and interactive elements between users (e.g., practicing dialogue with peers).
+- **Use Cases:** Real-time notifications and updates on other users' progress in collaborative learning environments.
 ---
