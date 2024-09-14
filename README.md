@@ -1,8 +1,16 @@
 ## Startup: *`Linguamaps`*
+<div style="text-align: center;">
+    <img src="assets/Logo.gif" alt="Logo GIF" style="width: 200px; height: auto;">
+</div>
 
 ### Elevator Pitch
 
 **Linguamaps** is a revolutionary web application that transforms the way we learn languages by using *AI* to deliver a <u> personalized, immersive, and cost-effective learning experience</u>.<br>By integrating real-world scenarios with interactive exercises on a *Google Maps* Street View interface, **Linguamaps** offers users a practical approach to mastering new languages.<br> It's designed to address the limitations of <u>traditional language learning tools</u> by providing progressive language practice ~~without the need for gamification~~, making language learning ``accessible and effective`` for everyone.
+<div style="text-align: center;">
+
+![Language Overview](assets/LangaugeOverview.jpg)
+
+</div>
 
 ### Key Features
 
@@ -28,10 +36,20 @@ At this project, we will be utilizing the following technologies:<br><br>
 | **Third-Party Service**  | Integration with Google Maps API for Street View and OpenAI API for generating dialogue prompts.                   |
 | **DB/Login**             | Uses a secure database to store user profiles, progress data, and credentials. Ensures that users are authenticated before accessing learning features. |
 | **WebSocket**            | Enables real-time updates and interactions, such as immediate feedback on exercises and collaborative practice with other users. |
-#
+___
+<br><br>
 <div style="text-align: center;">
 
-🌟 **`Linguamaps`** 🌟
+🌟 **`Linguamaps`** Design 🌟 
 </div>
 
----
+Below are rough sketches of the application's layout:<br>
+
+**Main Interface Layout**: Features a Google Maps Street View, language selection dropdowns, and interactive dialogue prompts.
+
+![Main Interface Sketch]()
+
+**Progress Report Page**: A minimalistic display of progress tracking, feedback on areas of improvement, and next steps for learning.
+
+![Progress Report Sketch]()
+___
