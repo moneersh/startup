@@ -1,8 +1,9 @@
 ## Startup: _`Linguamaps`_
 
-<div style="display: flex; justify-content: center;">
-    <img src="assets/Logo.gif" alt="Logo GIF" style="width: 200px; height: auto;">
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <img src="assets/Logo.gif" alt="Logo GIF" style="width: 200px; height: auto; margin: auto;">
 </div>
+
 
 ### Elevator Pitch
 
