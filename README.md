@@ -1,13 +1,13 @@
 ## Startup: _`Linguamaps`_
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <img src="assets/Logo.gif" alt="Logo GIF" style="width: 200px; height: auto; margin: auto;">
+<div style="text-align: center;">
+    <img src="assets/Logo.gif" alt="Logo GIF" style="width: 200px; height: auto;">
 </div>
 
 
 ### Elevator Pitch
 
-**Linguamaps** is a revolutionary web application that transforms the way we learn languages by using _AI_ to deliver a <u> personalized, immersive, and cost-effective learning experience</u>.<br>By integrating real-world scenarios with interactive exercises on a _Google Maps_ Street View interface, **Linguamaps** offers users a practical approach to mastering new languages.<br> It's designed to address the limitations of <u>traditional language learning tools</u> by providing progressive language practice ~~without the need for gamification~~, making language learning `accessible and effective` for everyone.
+**Linguamaps** is a revolutionary web application that transforms the way we learn languages by using _AI_ to deliver a <u> personalized, immersive, and cost-effective learning experience</u>.<br>By integrating real-world scenarios with interactive exercises on a _Google Maps_ Street View interface, **Linguamaps** offers users a practical approach to mastering new languages by taking advantage of the knowledge the user has of their native language.<br> Language learning is not <u>equal</u>. **Lingumaps** takes into account the advantages and disadvantages of the learner based on their background. It offers a realistic long term language `practice for anyone in any level`.
 
 <div style="text-align: center;">
 
