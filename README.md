@@ -10,5 +10,28 @@
 **`Real-World Practice`:** Engage with practical scenarios like ordering food, asking for directions, or conversing in daily situations.<br>
 **`Progressive Learning Path`:** Start with simple phrases and gradually move to more complex sentence structures as proficiency improves.<br>
 **`Minimalistic Progress Tracking`:** Receive constructive feedback and progress reports focused on mastering language skills without gamification distractions.<br>
-**`Seamless Interface`:** Utilizes Google Maps Street View for an immersive learning environment, simulating real-life conversations without game-like elements.
+**`Seamless Interface`:** Utilizes Google Maps Street View for an immersive learning environment, simulating real-life conversations without game-like elements.<br>
+
+<div style="text-align: center;">
+    ---------------------------------------------
+</div>
+
+### Technologies overview:  *`Linguamaps`*
+At this project, we will be utilizing the following technologies:<br><br>
+| Feature                  | Description                                                                                                        |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **HTML**                 | Uses correct HTML structure for the application, with pages for login, main interface, and progress tracking.     |
+| **CSS**                  | Styling for responsive design, good use of whitespace, and consistent color schemes across devices.                |
+| **JavaScript**           | Handles user interactions, such as selecting languages, navigating through exercises, and rendering feedback.      |
+| **React**                | Utilizes React for building a single-page application with component-based structure, routing, and state management.|
+| **Service**              | Backend service with endpoints for:<br> - `login`: Handles user authentication and session management.<br> - `retrieveExercises`: Fetches personalized language exercises.<br> - `submitProgress`: Submits user progress for tracking and feedback.|
+| **Third-Party Service**  | Integration with Google Maps API for Street View and OpenAI API for generating dialogue prompts.                   |
+| **DB/Login**             | Uses a secure database to store user profiles, progress data, and credentials. Ensures that users are authenticated before accessing learning features. |
+| **WebSocket**            | Enables real-time updates and interactions, such as immediate feedback on exercises and collaborative practice with other users. |
 #
+<div style="text-align: center;">
+
+🌟 **`Linguamaps`** 🌟
+</div>
+
+---
