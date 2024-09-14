@@ -1,5 +1,6 @@
 ## Startup: *`Linguamaps`*
-<div style="text-align: center;">
+
+<div style="display: flex; justify-content: center;">
     <img src="assets/Logo.gif" alt="Logo GIF" style="width: 200px; height: auto;">
 </div>
 
