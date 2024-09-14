@@ -78,3 +78,8 @@ Below are rough sketches of the application's layout:<br>
 - **Real-Time Data Exchange:** WebSockets will enable real-time updates, such as live feedback on exercises and interactive elements between users (e.g., practicing dialogue with peers).
 - **Use Cases:** Real-time notifications and updates on other users' progress in collaborative learning environments.
 ---
+
+## Project Deliverables
+
+1. **[HTML Deliverable](assets/Deliverables/HTML_Deliverable.md)**  
+   Details the structure of the application using HTML, including pages, navigation, text, images, and real-time updates.
