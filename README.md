@@ -83,3 +83,5 @@ Below are rough sketches of the application's layout:<br>
 
 1. **[HTML Deliverable](assets/Deliverables/HTML_Deliverable.md)**  
    Details the structure of the application using HTML, including pages, navigation, text, images, and real-time updates.
+2. **[CSS Deliverable](assets/Deliverables/CSS_Deliverable.md)**  
+   Describes the styling of the application, focusing on layout, navigation, responsiveness, and consistency.
