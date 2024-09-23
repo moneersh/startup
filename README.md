@@ -90,3 +90,5 @@ Below are rough sketches of the application's layout:<br>
    Outlines the implementation of the application using React, including components, state management, routing, and dynamic updates.
 4. **[Service Deliverable](assets/Deliverables/Service_Deliverable.md)**  
    Covers the backend service setup, including endpoints, third-party API integration, and frontend-backend communication.◊
+5. **[DB/Login Deliverable](assets/Deliverables/DB_Login_Deliverable.md)**  
+   Explains the database setup and login functionalities, including user registration, secure data storage, and access control.
