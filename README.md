@@ -92,3 +92,5 @@ Below are rough sketches of the application's layout:<br>
    Covers the backend service setup, including endpoints, third-party API integration, and frontend-backend communication.◊
 5. **[DB/Login Deliverable](assets/Deliverables/DB_Login_Deliverable.md)**  
    Explains the database setup and login functionalities, including user registration, secure data storage, and access control.
+6. **[WebSocket Deliverable](assets/Deliverables/WebSocket_Deliverable.md)**  
+   Details the implementation of WebSocket for real-time updates and interactions within the learning interface.
