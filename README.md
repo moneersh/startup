@@ -88,3 +88,5 @@ Below are rough sketches of the application's layout:<br>
 
 3. **[React Deliverable](assets/Deliverables/React_Deliverable.md)**  
    Outlines the implementation of the application using React, including components, state management, routing, and dynamic updates.
+4. **[Service Deliverable](assets/Deliverables/Service_Deliverable.md)**  
+   Covers the backend service setup, including endpoints, third-party API integration, and frontend-backend communication.◊
