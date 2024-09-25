@@ -1,4 +1,4 @@
-#HTML deliverable
+# HTML deliverable
 
 Creating the HTML deliverable for your **Linguamaps** application:
 
