@@ -28,3 +28,23 @@
     max-width: 600px;
     border-radius: 5px;
 }
+
+/* AI Dialogue Section */
+#ai-dialogue {
+    text-align: center;
+}
+
+#ai-placeholder {
+    margin-top: 15px;
+}
+
+#ai-placeholder p {
+    font-size: 1em;
+    color: #666;
+}
+
+#ai-placeholder img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+}
