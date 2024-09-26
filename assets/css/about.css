@@ -32,3 +32,67 @@
     line-height: 1.8;
     /* Increased line-height for better spacing */
 }
+
+/* Team Section */
+#team {
+    text-align: center;
+    /* Center-align the section */
+}
+
+#team h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* Increased gap between team members */
+    justify-content: center;
+}
+
+.team-member {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* Slightly more rounded corners */
+    width: 350px;
+    /* Increased width */
+    padding: 25px;
+    /* Increased padding */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Enhanced shadow for depth */
+    transition: transform 0.3s;
+    /* Add a hover effect */
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    /* Lift the card on hover */
+}
+
+.team-member img {
+    width: 180px;
+    /* Increased width */
+    height: 180px;
+    /* Increased height */
+    object-fit: cover;
+    border-radius: 50%;
+    /* Ensure the image remains circular */
+    border: 3px solid #4CAF50;
+    /* Optional: Add a border for emphasis */
+}
+
+.team-member h3 {
+    margin: 20px 0 10px 0;
+    /* Adjusted margins */
+    color: #4CAF50;
+}
+
+.team-member p {
+    margin: 10px 0;
+    font-size: 1em;
+    /* Increased font size */
+}
