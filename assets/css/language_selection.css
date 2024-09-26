@@ -1,0 +1,54 @@
+/* Language Options Section */
+#language-options h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.language-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.language-option {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.language-option:hover {
+    transform: scale(1.05);
+}
+
+.language-option img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.language-option p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.language-option a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.language-option a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .language-option {
+        width: 100%;
+    }
+}
