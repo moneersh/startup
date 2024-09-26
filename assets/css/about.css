@@ -125,3 +125,114 @@
     /* Increased line-height for better spacing */
     margin-bottom: 10px;
 }
+
+/* Contact Section */
+#contact {
+    text-align: center; /* Center-align the section */
+    padding: 60px 20px; /* Increased padding for spacing */
+}
+
+#contact h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: #388e3c; /* Dark green color for headings */
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-illustration {
+    flex: 1 1 300px;
+}
+
+.contact-illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-info {
+    flex: 1 1 300px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #1b5e20; /* Darker green for text */
+}
+
+.contact-info form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info .form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+.contact-info label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #388e3c; /* Dark green for labels */
+}
+
+.contact-info input,
+.contact-info textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #a5d6a7;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.contact-info input:focus,
+.contact-info textarea:focus {
+    border-color: #66bb6a;
+    outline: none;
+}
+
+.contact-info button {
+    background-color: #388e3c;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.contact-info button:hover {
+    background-color: #2e7d32;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-member {
+        width: 90%; /* Make team member cards full width on smaller screens */
+    }
+
+    .team-member img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-illustration,
+    .contact-info {
+        flex: 1 1 100%;
+    }
+}
