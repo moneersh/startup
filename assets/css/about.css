@@ -1,0 +1,20 @@
+#about-section {
+    text-align: center;
+    /* Center-align the section */
+    margin: 0 auto;
+    /* Center the section container */
+    max-width: 800px;
+    /* Optional: Limit the width for better readability */
+}
+
+#about-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#about-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    /* Increased line-height for better spacing */
+    margin-bottom: 20px;
+}
