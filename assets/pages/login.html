@@ -29,7 +29,25 @@
       <p>Welcome, <strong>Test User</strong></p>
     </header>
 
-    <main></main>
+    <main>
+      <section id="login-section">
+        <h2>Please Sign In</h2>
+        <form id="login-form" action="#" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <button type="submit">Login</button>
+        </form>
+
+        <!-- Placeholder for Login Error Messages -->
+        <div id="login-error">
+          <p><!-- Error messages will be displayed here --></p>
+        </div>
+      </section>
+    </main>
     <footer>
       <p>Created by Moneer AL HALABI</p>
       <div>
