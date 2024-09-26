@@ -1,0 +1,60 @@
+/* Center Align All Text in Progress Page */
+
+/* General Section Styling */
+#progress-overview,
+#realtime-feedback,
+#achievements {
+    text-align: center;
+    /* Center-align text within sections */
+    margin: 0 auto;
+    /* Center the section container */
+    max-width: 800px;
+    /* Optional: Limit the width for better readability */
+}
+
+/* Section Headings */
+#progress-overview h2,
+#realtime-feedback h2,
+#achievements h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Section Paragraphs */
+#progress-overview p,
+#realtime-feedback p,
+#achievements p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    /* Increased line-height for better spacing */
+    margin-bottom: 20px;
+}
+
+/* Progress Data, WebSocket Data, and Achievements Data Containers */
+#progress-data,
+#websocket-data,
+#achievements-data {
+    background-color: #fafafa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    #progress-overview,
+    #realtime-feedback,
+    #achievements {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    /* Adjust padding within data containers */
+    #progress-data,
+    #websocket-data,
+    #achievements-data {
+        padding: 15px;
+    }
+}
