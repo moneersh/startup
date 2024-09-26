@@ -8,3 +8,23 @@
     font-size: 1.1em;
     line-height: 1.6;
 }
+
+/* Map Integration Section */
+#map-integration {
+    text-align: center;
+}
+
+#map-placeholder {
+    margin-top: 15px;
+}
+
+#map-placeholder p {
+    font-size: 1em;
+    color: #666;
+}
+
+#map-placeholder img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+}

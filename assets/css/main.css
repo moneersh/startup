@@ -62,3 +62,16 @@ header nav ul li a:hover {
 #user-info p {
     margin: 0;
 }
+
+* Additional Styles for Accessibility and Clarity */ a {
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
