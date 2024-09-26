@@ -4,6 +4,16 @@
 
 This is the login page for the **Linguamaps** application, allowing users to sign in and access the platform.
 
+### Features
+
+- **Header Section**:
+  - Displays the **Linguamaps** logo and a navigation menu with links to key sections like Home, Choose Language, Progress, Login, and About.
+  - A placeholder is provided for displaying the logged-in user's name.
+- **Footer Section**:
+  - A copyright message including the creator’s name: Moneer AL HALABI.
+  - A link to the GitHub repository for the **Linguamaps** project.
+  - GitHub logo as a clickable image linking to the project repository.
+
 ### External Resources
 
 - **CSS Files**:
