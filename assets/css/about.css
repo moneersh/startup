@@ -96,3 +96,32 @@
     font-size: 1em;
     /* Increased font size */
 }
+
+/* Features Section */
+#features {
+    text-align: center;
+    /* Center-align the section */
+}
+
+#features h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#features ul {
+    list-style: none;
+    /* Remove default bullets */
+    padding-left: 0;
+    /* Remove left padding */
+    margin: 0 auto;
+    /* Center the list */
+    max-width: 800px;
+    /* Optional: Limit the width for better readability */
+}
+
+#features ul li {
+    font-size: 1.1em;
+    line-height: 1.5;
+    /* Increased line-height for better spacing */
+    margin-bottom: 10px;
+}
