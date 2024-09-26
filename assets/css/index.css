@@ -61,3 +61,16 @@
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
+/* Real-Time Updates Section */
+#realtime-updates {
+    text-align: center;
+}
+
+#websocket-data {
+    margin-top: 15px;
+    background-color: #fafafa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
