@@ -75,3 +75,34 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div img {
+    margin-right: 10px;
+}
+
+footer div a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}
