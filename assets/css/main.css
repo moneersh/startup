@@ -63,7 +63,8 @@ header nav ul li a:hover {
     margin: 0;
 }
 
-* Additional Styles for Accessibility and Clarity */ a {
+/* Additional Styles for Accessibility and Clarity */ 
+a {
     color: #4CAF50;
 }
 
@@ -105,4 +106,31 @@ footer div a {
 
 footer div a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    header nav {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    header nav img.logo {
+        margin-bottom: 0;
+    }
+
+    header nav ul {
+        margin-top: 0;
+    }
+
+    #user-info {
+        margin-top: 0;
+    }
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
