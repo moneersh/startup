@@ -8,3 +8,4 @@ Creating the HTML deliverable for your **Linguamaps** application:
 - [**language_selection.html**](/assets/documents/language_selection.md): Language selection page
 - [**progress.html**](/assets/documents/progress.md): User progress tracking page
 - [**login.html**](/assets/documents/login.md): User authentication page
+- [**about.html**](/assets/documents/about.md): Information about this project
