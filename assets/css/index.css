@@ -1,0 +1,10 @@
+/* Introduction Section */
+#introduction h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#introduction p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
