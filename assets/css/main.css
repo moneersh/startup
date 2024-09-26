@@ -113,7 +113,7 @@ img {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #4CAF50;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -131,6 +131,8 @@ footer div {
 
 footer div img {
     margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 footer div a {
