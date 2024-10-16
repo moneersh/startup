@@ -1,54 +1,26 @@
-/* Language Options Section */
+/* Language Selection Section */
 #language-options h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.language-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.language-option {
-    background-color: #fafafa;
-    border: 1px solid #ddd;
+ #card-img-top {
+    width: 25%;
+    height: 20px;
     border-radius: 5px;
-    width: 150px;
-    text-align: center;
-    padding: 10px;
-    transition: transform 0.2s;
-}
-
-.language-option:hover {
-    transform: scale(1.05);
-}
-
-.language-option img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
+    margin-bottom: 15px;
 }
 
 .language-option p {
-    margin-top: 10px;
-    font-size: 1.1em;
+    margin-top: 15px;
+    font-size: 1.2em;
 }
 
 .language-option a {
-    color: #4CAF50;
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
 .language-option a:hover {
-    text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    .language-option {
-        width: 100%;
-    }
+    color: #4CAF50; /* Green color on hover */
 }
