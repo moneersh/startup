@@ -2,37 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>About - Linguamaps®</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/about.css" />
     <link rel="shortcut icon" href="../images/favicon.ico" />
   </head>
   <body>
-    <header>
-      <h1>About Linguamaps<sup>&reg;</sup></h1>
-      <nav>
-        <a href="../../index.html">
-          <img src="../images/Logo.gif" alt="Linguamaps Logo" class="logo" />
-        </a>
-        <ul>
-          <li><a href="../../index.html">Home</a></li>
-          <li><a href="language_selection.html">Choose Language</a></li>
-          <li><a href="progress.html">Progress</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-      <div id="user-info">
-        <!-- Login Placeholder -->
-        <!-- After login, display the user's name -->
-        <p>Welcome, <strong>Test User</strong></p>
+    <!-- Header Section -->
+    <header class="bg-success text-white py-4">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+          <h1 class="mb-3 mb-md-0">About Linguamaps<sup>&reg;</sup></h1>
+          <a href="../../index.html">
+            <img
+              src="../images/Logo.gif"
+              alt="Linguamaps Logo"
+              class="logo img-fluid rounded-circle"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </div>
+        <nav class="mt-3">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="language_selection.html">Choose Language</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="progress.html">Progress</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="about.html">About</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="user-info" class="text-center mt-3">
+          <!-- Login Placeholder -->
+          <!-- After login, display the user's name -->
+          <p>Welcome, <strong>Test User</strong></p>
+        </div>
       </div>
     </header>
-    <main>
-      <section id="about-section">
-        <h2>Discover the Future of Language Learning</h2>
-        <p>
+
+    <!-- Main Content Section -->
+    <main class="container my-5">
+      <!-- About Section -->
+      <section id="about-section" class="mb-5">
+        <h2 class="text-center">Discover the Future of Language Learning</h2>
+        <p class="text-center">
           Linguamaps is a cutting-edge language learning platform that leverages
           the latest advancements in artificial intelligence (AI) and machine
           learning (ML) to provide a personalized and immersive learning
@@ -40,7 +73,7 @@
           interactive exercises, and AI-driven feedback to help you master a new
           language in a fun and engaging way.
         </p>
-        <p>
+        <p class="text-center">
           Whether you're a beginner looking to learn the basics or an advanced
           learner seeking to refine your skills, Linguamaps offers a range of
           courses tailored to your proficiency level and learning goals. With
@@ -48,7 +81,7 @@
           your speaking and listening skills, and track your progress in real
           time.
         </p>
-        <p>
+        <p class="text-center">
           Our platform also features a community-driven approach, allowing users
           to connect with fellow learners, share their experiences, and receive
           support from language experts and tutors. By fostering a collaborative
@@ -57,9 +90,10 @@
         </p>
       </section>
 
-      <section id="mission">
-        <h2>Our Mission</h2>
-        <p>
+      <!-- Mission Section -->
+      <section id="mission" class="mb-5">
+        <h2 class="text-center">Our Mission</h2>
+        <p class="text-center">
           At <strong>Linguamaps</strong>, our mission is to revolutionize
           language learning by providing a personalized, immersive, and
           cost-effective experience. We leverage the power of AI and real-world
@@ -67,64 +101,78 @@
         </p>
       </section>
 
-      <section id="team">
-        <h2>Meet the Team</h2>
-        <div class="team-members">
-          <!-- Team Member 1 -->
-          <div class="team-member">
-            <img
-              src="../images/team/felipe_souza_lima.jpg"
-              alt="Felipe Souza Lima"
-            />
-            <h3>Felipe Souza Lima</h3>
-            <p>Founder & CEO</p>
-            <p>
-              Felipe is passionate about language education and technology. With
-              over a decade of experience in AI development, he leads Linguamaps
-              with a vision to make language learning accessible to everyone.
-            </p>
-          </div>
+      <!-- Team Section -->
+      <section id="team" class="mb-5">
+        <h2 class="text-center">Meet the Team</h2>
+        <div class="row row-cols-1 row-cols-md-1 g-4">
+          <!-- Team Member 1
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img
+                src="../images/team/felipe_souza_lima.jpg"
+                alt="Felipe Souza Lima"
+                class="card-img-top rounded-circle mx-auto mt-3"
+                style="width: 150px; height: 150px; object-fit: cover;"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Felipe Souza Lima</h3>
+                <p class="card-text"><strong>Founder & CEO</strong></p>
+                <p class="card-text">
+                  Felipe is passionate about language education and technology. With
+                  over a decade of experience in AI development, he leads Linguamaps
+                  with a vision to make language learning accessible to everyone.
+                </p>
+              </div>
+            </div>
+          </div> -->
           <!-- Team Member 2 -->
-          <div class="team-member">
-            <img
-              src="../images/team/moneer_alhalabi.jpg"
-              alt="Moneer ALHALABI"
-            />
-            <h3>Moneer ALHALABI</h3>
-            <p>Chief Technology Officer (CTO)</p>
-            <p>
-              Moneer oversees all technical aspects of Linguamaps. His expertise
-              in software engineering and machine learning ensures that our
-              platform remains cutting-edge and user-friendly.
-            </p>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img
+                src="../images/team/moneer_alhalabi.jpg"
+                alt="Moneer ALHALABI"
+                class="card-img-top rounded-circle mx-auto mt-3"
+                style="width: 150px; height: 150px; object-fit: cover;"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Moneer ALHALABI</h3>
+                <p class="card-text"><strong>Chief Technology Officer (CTO)</strong></p>
+                <p class="card-text">
+                  Moneer oversees all technical aspects of Linguamaps. His expertise
+                  in software engineering and machine learning ensures that our
+                  platform remains cutting-edge and user-friendly.
+                </p>
+              </div>
+            </div>
           </div>
           <!-- Add more team members as needed -->
         </div>
       </section>
 
-      <section id="features">
-        <h2>Key Features</h2>
-        <ul>
-          <li>
+      <!-- Features Section -->
+      <section id="features" class="mb-5">
+        <h2 class="text-center">Key Features</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
             <strong>AI-Driven Language Learning:</strong> Personalized learning
             experiences that adapt to your language level and progress.
           </li>
-          <li>
+          <li class="list-group-item">
             <strong>Real-World Practice:</strong> Engage with practical
             scenarios like ordering food, asking for directions, or conversing
             in daily situations.
           </li>
-          <li>
+          <li class="list-group-item">
             <strong>Progressive Learning Path:</strong> Start with simple
             phrases and gradually move to more complex sentence structures as
             your proficiency improves.
           </li>
-          <li>
+          <li class="list-group-item">
             <strong>Minimalistic Progress Tracking:</strong> Receive
             constructive feedback and progress reports focused on mastering
             language skills without gamification distractions.
           </li>
-          <li>
+          <li class="list-group-item">
             <strong>Seamless Interface:</strong> Utilizes Google Maps Street
             View for an immersive learning environment, simulating real-life
             conversations without game-like elements.
@@ -132,52 +180,23 @@
         </ul>
       </section>
 
-      <!-- New Contact Us Section -->
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <div class="contact-container">
-          <div class="contact-illustration">
-            <img src="../images/contact_illustration.gif" alt="Contact Us Illustration" />
+      <!-- Contact Us Section -->
+      <section id="contact" class="mb-5">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img
+              src="../images/contact_illustration.gif"
+              alt="Contact Us Illustration"
+              class="img-fluid rounded"
+            />
           </div>
-          <div class="contact-info">
+          <div class="col-md-6">
             <p>
               Have questions, suggestions, or just want to say hello? We'd love to hear from you!
             </p>
             <form action="mailto:support@linguamaps.com" method="post" enctype="text/plain">
-              <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required />
+              <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required />
               </div>
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required />
-              </div>
-              <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-              </div>
-              <button type="submit">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </section>
-      <!-- End of Contact Us Section -->
-    </main>
-    <footer>
-      <p>Created by Moneer AL HALABI</p>
-      <div>
-        <img
-          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-          alt="GitHub Logo"
-          width="30"
-          height="30"
-        />
-        <p>
-          <a href="https://github.com/moneersh/startup.git" target="_blank"
-            >GitHub Repository</a
-          >
-        </p>
-      </div>
-    </footer>
-  </body>
-</html>

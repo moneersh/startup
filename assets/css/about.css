@@ -1,238 +1,53 @@
-#about-section {
-    text-align: center;
-    /* Center-align the section */
-    margin: 1 auto;
-    /* Center the section container */
-}
-
-#about-section h2 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-}
-
-#about-section p {
-    font-size: 1.1em;
-    line-height: 1.8;
-    /* Increased line-height for better spacing */
+/* About Section */
+#about-section h2,
+#mission h2,
+#team h2,
+#features h2,
+#contact h2 {
     margin-bottom: 20px;
 }
 
-/* Mission Section */
-#mission {
-    text-align: center;
-}
-
-#mission h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-#mission p {
-    font-size: 1.1em;
-    line-height: 1.8;
-    /* Increased line-height for better spacing */
-}
-
-/* Team Section */
-#team {
-    text-align: center;
-    /* Center-align the section */
-}
-
-#team h2 {
-    font-size: 1.8em;
-    margin-bottom: 20px;
-}
-
+/* Team Members */
 .team-members {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    /* Increased gap between team members */
-    justify-content: center;
+    gap: 20px;
 }
 
 .team-member {
-    background-color: #fafafa;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    /* Slightly more rounded corners */
-    width: 350px;
-    /* Increased width */
-    padding: 25px;
-    /* Increased padding */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    /* Enhanced shadow for depth */
-    transition: transform 0.3s;
-    /* Add a hover effect */
-}
-
-.team-member:hover {
-    transform: translateY(-10px);
-    /* Lift the card on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .team-member img {
-    width: 180px;
-    /* Increased width */
-    height: 180px;
-    /* Increased height */
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    /* Ensure the image remains circular */
-    border: 3px solid #4CAF50;
-    /* Optional: Add a border for emphasis */
-}
-
-.team-member h3 {
-    margin: 20px 0 10px 0;
-    /* Adjusted margins */
-    color: #4CAF50;
-}
-
-.team-member p {
-    margin: 10px 0;
-    font-size: 1em;
-    /* Increased font size */
-}
-
-/* Features Section */
-#features {
-    text-align: center;
-    /* Center-align the section */
-}
-
-#features h2 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-#features ul {
-    list-style: none;
-    /* Remove default bullets */
-    padding-left: 0;
-    /* Remove left padding */
-    margin: 0 auto;
-    /* Center the list */
-    max-width: 800px;
-    /* Optional: Limit the width for better readability */
-}
-
-#features ul li {
-    font-size: 1.1em;
-    line-height: 1.5;
-    /* Increased line-height for better spacing */
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Contact Section */
-#contact {
-    text-align: center; /* Center-align the section */
-    padding: 60px 20px; /* Increased padding for spacing */
-}
-
-#contact h2 {
-    font-size: 1.8em;
-    margin-bottom: 30px;
-    color: #388e3c; /* Dark green color for headings */
-}
-
 .contact-container {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
-
-.contact-illustration {
-    flex: 1 1 300px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .contact-illustration img {
-    max-width: 100%;
-    height: auto;
-}
-
-.contact-info {
-    flex: 1 1 300px;
-}
-
-.contact-info p {
-    font-size: 1.1em;
-    margin-bottom: 20px;
-    color: #1b5e20; /* Darker green for text */
+    width: 100%;
+    max-width: 400px;
 }
 
 .contact-info form {
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info .form-group {
-    margin-bottom: 20px;
-    text-align: left; /* Align labels and inputs to the left */
-}
-
-.contact-info label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #388e3c; /* Dark green for labels */
-}
-
-.contact-info input,
-.contact-info textarea {
-    width: 95%;
-    padding: 12px;
-    border: 1px solid #a5d6a7;
-    border-radius: 5px;
-    font-size: 1em;
-    transition: border-color 0.3s;
-}
-
-.contact-info input:focus,
-.contact-info textarea:focus {
-    border-color: #66bb6a;
-    outline: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .contact-info button {
-    background-color: #388e3c;
-    color: #ffffff;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.3s;
-}
-
-.contact-info button:hover {
-    background-color: #2e7d32;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .team-member {
-        width: 90%; /* Make team member cards full width on smaller screens */
-    }
-
-    .team-member img {
-        width: 150px;
-        height: 150px;
-    }
-
-    .contact-container {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .contact-illustration,
-    .contact-info {
-        flex: 1 1 100%;
-    }
+    align-self: flex-start;
 }
