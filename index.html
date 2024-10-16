@@ -3,103 +3,172 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
-    <title>Home</title>
+    <title>Home - Linguamaps®</title>
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
   </head>
 
   <body>
-    <header>
-      <h1>Welcome to Linguamaps<sup>&reg;</sup></h1>
-      <nav>
-        <a href="index.html">
-          <img
-            src="assets/images/Logo.gif"
-            alt="Linguamaps Logo"
-            class="logo"
-          />
-        </a>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li>
-            <a href="assets/pages/language_selection.html">Choose Language</a>
-          </li>
-          <li><a href="assets/pages/progress.html">Progress</a></li>
-          <li><a href="assets/pages/login.html">Logout</a></li>
-          <li><a href="assets/pages/about.html">About</a></li>
-        </ul>
-      </nav>
-      <div id="user-info">
-        <!-- Login Placeholder -->
-        <!-- After login, display the user's name -->
-        <p>Welcome, <strong>Test User</strong></p>
+    <!-- Header Section -->
+    <header class="bg-success text-white py-4">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-md-row align-items-center justify-content-between"
+        >
+          <h1 class="mb-3 mb-md-0">Welcome to Linguamaps<sup>&reg;</sup></h1>
+          <a href="index.html">
+            <img
+              src="assets/images/Logo.gif"
+              alt="Linguamaps Logo"
+              class="logo img-fluid rounded-circle"
+              style="width: 100px; height: 100px"
+            />
+          </a>
+        </div>
+        <nav class="mt-3">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                href="assets/pages/language_selection.html"
+                >Choose Language</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="assets/pages/progress.html"
+                >Progress</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="assets/pages/login.html"
+                >Logout</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="assets/pages/about.html"
+                >About</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div id="user-info" class="text-center mt-3">
+          <!-- Login Placeholder -->
+          <!-- After login, display the user's name -->
+          <p>Welcome, <strong>Test User</strong></p>
+        </div>
       </div>
     </header>
-    <main>
+
+    <!-- Main Content Section -->
+    <main class="container my-5">
       <!-- Introduction Section -->
-      <section id="introduction">
-        <h2>Embark on a New Language Journey</h2>
-        <p>
+      <section id="introduction" class="mb-5">
+        <h2 class="text-center">Embark on a New Language Journey</h2>
+        <p class="text-center">
           Linguamaps is a revolutionary web application that transforms the way
           we learn languages by using AI to deliver a personalized, immersive,
           and cost-effective learning experience.
         </p>
       </section>
 
-      <!-- Google Maps Integration Placeholder -->
-      <section id="map-integration">
-        <h2>Explore Real-World Scenarios</h2>
-        <div id="map-placeholder">
+      <!-- Map Integration Section -->
+      <section id="map-integration" class="mb-5">
+        <h2 class="text-center">Explore Real-World Scenarios</h2>
+        <div id="map-placeholder" class="text-center">
           <!-- Google Maps Street View will be integrated here -->
           <p>Google Maps Street View Placeholder</p>
-          <img src="assets/images/map_placeholder.jpg" alt="Map Placeholder" />
+          <img
+            src="assets/images/map_placeholder.jpg"
+            alt="Map Placeholder"
+            class="img-fluid rounded"
+            style="max-width: 600px"
+          />
         </div>
       </section>
 
-      <!-- AI-Driven Dialogue Placeholder -->
-      <section id="ai-dialogue">
-        <h2>Interactive AI-Driven Conversations</h2>
-        <div id="ai-placeholder">
+      <!-- AI Dialogue Section -->
+      <section id="ai-dialogue" class="mb-5">
+        <h2 class="text-center">Interactive AI-Driven Conversations</h2>
+        <div id="ai-placeholder" class="text-center">
           <!-- OpenAI API will be used here for dialogue prompts -->
           <p>AI Dialogue Placeholder</p>
-          <img src="assets/images/ai_placeholder.jpg" alt="AI Placeholder" />
+          <img
+            src="assets/images/ai_placeholder.jpg"
+            alt="AI Placeholder"
+            class="img-fluid rounded"
+            style="max-width: 600px"
+          />
         </div>
       </section>
 
-      <!-- User Progress Placeholder -->
-      <section id="progress-summary">
-        <h2>Your Learning Progress</h2>
-        <div id="progress-data">
+      <!-- User Progress Section -->
+      <section id="progress-summary" class="mb-5">
+        <h2 class="text-center">Your Learning Progress</h2>
+        <div id="progress-data" class="bg-light p-3 border rounded text-center">
           <!-- User progress data retrieved from the database will be displayed here -->
           <p>Progress Data Placeholder</p>
         </div>
       </section>
 
-      <!-- Real-Time Updates Placeholder -->
-      <section id="realtime-updates">
-        <h2>Real-Time Updates</h2>
-        <div id="websocket-data">
+      <!-- Real-Time Updates Section -->
+      <section id="realtime-updates" class="mb-5">
+        <h2 class="text-center">Real-Time Updates</h2>
+        <div
+          id="websocket-data"
+          class="bg-light p-3 border rounded text-center"
+        >
           <!-- Real-time communication via WebSocket will be displayed here -->
           <p>WebSocket Data Placeholder</p>
         </div>
       </section>
     </main>
-    <footer>
-      <p>Created by Moneer AL HALABI</p>
-      <div>
-        <img
-          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-          alt="GitHub Logo"
-          width="30"
-          height="30"
-        />
-        <p>
-          <a href="https://github.com/moneersh/startup.git" target="_blank"
-            >GitHub Repository</a
-          >
-        </p>
+
+    <!-- Footer Section -->
+    <footer class="bg-success text-white py-3">
+      <div class="container text-center">
+        <p>Created by Moneer AL HALABI</p>
+        <div class="d-flex justify-content-center align-items-center">
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt="GitHub Logo"
+            width="30"
+            height="30"
+            class="me-2"
+          />
+          <p class="mb-0">
+            <a
+              href="https://github.com/moneersh/startup.git"
+              target="_blank"
+              class="text-white"
+              >GitHub Repository</a
+            >
+          </p>
+        </div>
       </div>
     </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-QkOK9vF7s5RFePtYW3pgI4a6dT7L3vZf2xZ5kC0KdquN+b0g5F9mG+ZVgkuycY9T"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
